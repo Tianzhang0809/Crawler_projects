@@ -1,0 +1,19 @@
+Instruction for running the program:
+1. In Command Line Environment, go to the working directory of the Assignment.jar program.
+2. Type in java -jar Assignment.jar and follow the instruction.
+
+
+A few notes:
+1. The user needs to install the mysql database in the local machine and  type in the mysql database user name and password to run the program.
+
+2. The crawler requires internet environment to extract the information.
+
+3. If user try to run the program multiple times, the crawler will still parse the url and find the information but only the record that is not currently in the database will be stored. So it supports running multiple times.
+
+
+
+External Library used:
+
+1. Jsoup: for Html parsing.
+
+2. Htmlunit: to simulate the browser and get the java script generated content.
